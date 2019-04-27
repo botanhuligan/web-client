@@ -1,11 +1,43 @@
-.App {
-  text-align: center;
+html {
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  background-color: rgb(43, 43, 43);
+  width: 100%;
+  height: 100%;
+  color: rgb(186, 186, 164);
+}
+
+.content {
+  padding: 15px;
+}
+
+.form {
+  width: 300px;
+}
+
+.input {
+  width: 500px;
+  border-color: rgb(232, 191, 106);
+  background-color: rgb(60, 63, 65);
+}
+
+.button {
+  color: rgb(216, 216, 216);
+  border-color: rgb(232, 191, 106);
+  background-color: rgb(232, 191, 106);
+}
+
+.button:hover {
+  border-color: rgb(204, 120, 50);
+  background-color: rgb(204, 120, 50);
 }
 
 .App-header {
@@ -21,13 +53,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
